@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.themGiangvien">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="50dp">
+
+        <EditText
+            android:layout_marginTop="150dp"
+            android:id="@+id/edTen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Ho va Ten"
+            tools:layout_editor_absoluteX="76dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <EditText
+            android:layout_marginTop="20dp"
+            android:id="@+id/edNam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Nam "
+            tools:layout_editor_absoluteX="76dp"
+            tools:layout_editor_absoluteY="299dp" />
+
+        <Spinner
+            android:layout_marginTop="20dp"
+            android:id="@+id/spTrinhdo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="418dp" />
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/btnThemGV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Them "
+            tools:layout_editor_absoluteX="129dp"
+            tools:layout_editor_absoluteY="498dp" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
